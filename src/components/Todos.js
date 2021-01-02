@@ -17,6 +17,8 @@ class Todos extends Component {
 //PropTypes are like type checking
 
 Todos.propTypes = {
-  todos: PropType.array.isRequired
+  todos: PropType.array.isRequired,
+  markComplete: PropType.func.isRequired,
+  deleteItem: PropType.func.isRequired
 }
 export default Todos;
